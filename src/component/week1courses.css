@@ -1,0 +1,26 @@
+body{
+    background-color:#2B2A4C;
+}
+h2{
+    color:brown;
+    padding: 5px;
+}
+p{
+    color: beige;
+    margin-left: 15px;
+}
+h1{
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    color: beige;
+}
+a {
+background-color: brown;
+color: beige;
+padding: 5px;
+text-decoration: none;
+border:2px solid black;
+position: absolute;
+margin-top: 10px; margin-left:15px;
+}

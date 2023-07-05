@@ -1,0 +1,53 @@
+/* week1admissions.css */
+
+/* Styling for the main heading */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the admission form */
+  #admissionForm {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  
+  #admissionForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #admissionForm input[type="text"],
+  #admissionForm input[type="email"],
+  #admissionForm input[type="tel"],
+  #admissionForm select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #admissionForm input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  #admissionForm input[type="submit"] {
+    background-color: brown;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  #admissionForm input[type="submit"]:hover {
+    background-color: #8b0000;
+  }
+  
+  

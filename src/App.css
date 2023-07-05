@@ -1,0 +1,132 @@
+nav {
+  
+  display: flex;
+  background-color:antiquewhite;
+  justify-content: space-around;
+  color:white;
+  align-items: center;
+  padding: 10px;
+  margin:10px;
+  margin-top: 1px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.nvalinks{
+  display:flex;
+list-style: none;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+  color:antiquewhite;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color:rgb(162, 162, 162);
+ 
+  background-size:cover;
+}
+.containertop{
+  display: flex;
+  background-color: brown;
+ border-radius: 10px;
+  
+}
+.containertop>img{
+  padding: 10px;
+}
+.containertop >p{
+  padding:10px;
+  font-size: 20px;
+  
+  color:beige;
+  padding-left: 10px;
+}
+
+
+.herobanner{
+  background-image: url(../public/projectimages/campus2.jpg);
+  background-size:cover;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+   margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+
+margin-top: 30px;
+
+}
+.herobanner >h3{
+  color: black;
+  margin-left: auto;
+   
+}
+.herobanner>h3>a{
+  color: beige;
+  text-decoration: none;
+
+  background-color: brown;
+  border: 2px solid white;
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+  color: beige;
+  background-color: #2B2A4C;
+  margin-top: 50px;
+  padding: 5px;
+}
+.stats>h2{
+  color: beige;
+  text-align: center;
+}
+.stats>table{
+  text-align: center;
+  border: 2px solid beige;
+  padding: 10px;
+   padding:20px;
+}
+
+.image-grid {
+display: grid;
+display: inline-grid;;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+}
+
+.image-grid img {
+width: 100%;
+height: auto;
+border: 3px solid pink;
+}
+
+.social{
+margin-top: 100px;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+
+}
+.socialHeading{
+font-family: sans-serif;
+}
+.handles a img{
+
+width: 50px;
+height: 50px;
+}
